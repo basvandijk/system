@@ -26,6 +26,7 @@
       adoc-mode
       plantuml-mode
       use-package
+      rg
     ]);
 
   inherit (pkgs)
@@ -39,7 +40,8 @@
     openssl
     nix-diff
     plantuml
-    jre;
+    jre
+    ripgrep;
 
   inherit (pkgs.gitAndTools) git-crypt;
 
