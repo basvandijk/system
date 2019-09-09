@@ -41,7 +41,8 @@
     nix-diff
     plantuml
     jre
-    ripgrep;
+    ripgrep
+    jq;
 
   inherit (pkgs.gitAndTools) git-crypt;
 
