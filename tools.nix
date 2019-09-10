@@ -42,7 +42,8 @@
     plantuml
     jre
     ripgrep
-    jq;
+    jq
+    direnv;
 
   inherit (pkgs.gitAndTools) git-crypt;
 
