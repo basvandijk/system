@@ -48,4 +48,6 @@
   inherit (pkgs.gitAndTools) git-crypt;
 
   niv = pkgs.haskell.lib.justStaticExecutables (import sources.niv { inherit pkgs; }).niv;
+
+  lorri = import sources.lorri { inherit pkgs; };
 }
