@@ -27,6 +27,7 @@
       plantuml-mode
       use-package
       rg
+      tt-mode
     ]);
 
   inherit (pkgs)
