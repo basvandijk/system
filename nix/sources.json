@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "target",
         "repo": "lorri",
-        "rev": "ae95c4d1a0bca1d5dc3cec1b6ff9eab73da4ab0b",
-        "sha256": "1csria0mhl1zzmzvapzrb5scy7d5mzrxbzh30wv9mplhjy2hc3hs",
+        "rev": "b2f1fe218ab95ce7c89c4b35644d01c4c1f1b21d",
+        "sha256": "0yliffg3kpmdi2nk1xjhizsnz03djnjj8pw5k3gryz7hh2cyvyx7",
         "type": "tarball",
-        "url": "https://github.com/target/lorri/archive/ae95c4d1a0bca1d5dc3cec1b6ff9eab73da4ab0b.tar.gz",
+        "url": "https://github.com/target/lorri/archive/b2f1fe218ab95ce7c89c4b35644d01c4c1f1b21d.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
@@ -17,10 +17,22 @@
         "homepage": "https://github.com/nmattia/niv",
         "owner": "nmattia",
         "repo": "niv",
-        "rev": "1dd094156b249586b66c16200ecfd365c7428dc0",
-        "sha256": "1b2vjnn8iac5iiqszjc2v1s1ygh0yri998c0k3s4x4kn0dsqik21",
+        "rev": "c8f74f44b5f5df2c8f20a1834460d012e74d78f9",
+        "sha256": "0zmhxgl37f1p2aiqjmiccflpgga6phj6vmqs3jd33z0frj6hsy5c",
         "type": "tarball",
-        "url": "https://github.com/nmattia/niv/archive/1dd094156b249586b66c16200ecfd365c7428dc0.tar.gz",
+        "url": "https://github.com/nmattia/niv/archive/c8f74f44b5f5df2c8f20a1834460d012e74d78f9.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nix-diff": {
+        "branch": "fix-build-and-upgrade-deps",
+        "description": "Explain why two Nix derivations differ",
+        "homepage": null,
+        "owner": "basvandijk",
+        "repo": "nix-diff",
+        "rev": "f374c2840882861766f35fc24cb795b52dbb0d94",
+        "sha256": "1qh4gbpckjr37vz3ix3805pkcswvpadza969rkwdr5vnyamcfn7r",
+        "type": "tarball",
+        "url": "https://github.com/basvandijk/nix-diff/archive/f374c2840882861766f35fc24cb795b52dbb0d94.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
@@ -29,10 +41,10 @@
         "homepage": null,
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "2455b2e3091d406e9902dc57a9b618860d66adef",
-        "sha256": "188cq83adlym54v4yaxvw8biy4g0rfdy898wbmmzsp347zjq01dn",
+        "rev": "dbb4826457929842e2ae48eb4ad98cba976cd645",
+        "sha256": "02gkkv9kajpn0v5dcx3isbfcrjqa9idxwsisdv70l3fbwsl3b5sn",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/2455b2e3091d406e9902dc57a9b618860d66adef.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/dbb4826457929842e2ae48eb4ad98cba976cd645.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-nix-env -f tools.nix -i '.*'
+nix-env -v -f tools.nix -i '.*'

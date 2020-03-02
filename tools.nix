@@ -1,10 +1,17 @@
-{ sources ? import ./nix/sources.nix
-, pkgs ? import sources.nixpkgs {
+let
+  pkgs = import sources.nixpkgs {
     config = {
       allowUnfree = true;
     };
-  }
-}: {
+  };
+
+  sources = import sourcesnix { sourcesFile = ./nix/sources.json; inherit pkgs; };
+
+  sourcesnix = builtins.fetchurl {
+    url = https://raw.githubusercontent.com/nmattia/niv/506b896788d9705899592a303de95d8819504c55/nix/sources.nix;
+    sha256 = "007bgq4zy1mjnnkbmaaxvvn4kgpla9wkm0d3lfrz3y1pa3wp9ha1";
+  };
+in {
   emacs = (pkgs.emacsPackagesNgGen pkgs.emacs).emacsWithPackages (epkgs:
     with epkgs.melpaPackages; [
       magit
@@ -30,7 +37,14 @@
       tt-mode
     ]);
 
+  # Remove once https://github.com/Gabriel439/nix-diff/pull/26 is merged and available in nixpkgs.
+  nix-diff = pkgs.haskell.lib.overrideCabal pkgs.nix-diff (_: {
+    src = sources.nix-diff;
+    broken = false;
+  });
+
   inherit (pkgs)
+    coreutils
     git
     htop
     zsh
@@ -39,16 +53,16 @@
     tree
     gnupg
     openssl
-    nix-diff
     plantuml
-    jre
+    # jre
     ripgrep
     jq
-    direnv;
+    direnv
+    graphviz;
 
   inherit (pkgs.gitAndTools) git-crypt;
 
-  niv = pkgs.haskell.lib.justStaticExecutables (import sources.niv { inherit pkgs; }).niv;
+  inherit (import sources.niv { inherit pkgs; }) niv;
 
   lorri = import sources.lorri { inherit pkgs; };
 }
