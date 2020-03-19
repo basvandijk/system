@@ -29,10 +29,10 @@
         "homepage": null,
         "owner": "basvandijk",
         "repo": "nix-diff",
-        "rev": "f374c2840882861766f35fc24cb795b52dbb0d94",
-        "sha256": "1qh4gbpckjr37vz3ix3805pkcswvpadza969rkwdr5vnyamcfn7r",
+        "rev": "1e18c4ad2216d67b12c9755cae40c5f053acc05c",
+        "sha256": "119j3c75n1iyh2y0xpppcr0p26hizv8y7359w0nawync3y51i0x4",
         "type": "tarball",
-        "url": "https://github.com/basvandijk/nix-diff/archive/f374c2840882861766f35fc24cb795b52dbb0d94.tar.gz",
+        "url": "https://github.com/basvandijk/nix-diff/archive/1e18c4ad2216d67b12c9755cae40c5f053acc05c.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
