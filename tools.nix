@@ -58,7 +58,8 @@ in {
     ripgrep
     jq
     direnv
-    graphviz;
+    graphviz
+    cabal2nix;
 
   inherit (pkgs.gitAndTools) git-crypt;
 
