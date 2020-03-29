@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "target",
         "repo": "lorri",
-        "rev": "b2f1fe218ab95ce7c89c4b35644d01c4c1f1b21d",
-        "sha256": "0yliffg3kpmdi2nk1xjhizsnz03djnjj8pw5k3gryz7hh2cyvyx7",
+        "rev": "13354036ce2161d21da91e07337814e2a9fa734b",
+        "sha256": "1rqjknk1iywwq0npwqnfkvg565wmaf5742aly97giid9jadb1r6c",
         "type": "tarball",
-        "url": "https://github.com/target/lorri/archive/b2f1fe218ab95ce7c89c4b35644d01c4c1f1b21d.tar.gz",
+        "url": "https://github.com/target/lorri/archive/13354036ce2161d21da91e07337814e2a9fa734b.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
