@@ -60,7 +60,9 @@ in {
     jq
     direnv
     graphviz
-    cabal2nix;
+    cabal2nix
+    vulnix
+    ;
 
   inherit (pkgs.gitAndTools) git-crypt;
 
