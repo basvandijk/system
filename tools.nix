@@ -46,6 +46,7 @@ in {
   inherit (pkgs)
     coreutils
     git
+    git-lfs
     htop
     zsh
     oh-my-zsh
