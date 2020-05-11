@@ -64,6 +64,8 @@ in {
     vulnix
     ;
 
+  inherit (pkgs.haskellPackages) ghc;
+
   inherit (pkgs.gitAndTools) git-crypt;
 
   inherit (import sources.niv { inherit pkgs; }) niv;
