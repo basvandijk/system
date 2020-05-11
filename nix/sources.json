@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "target",
         "repo": "lorri",
-        "rev": "13354036ce2161d21da91e07337814e2a9fa734b",
-        "sha256": "1rqjknk1iywwq0npwqnfkvg565wmaf5742aly97giid9jadb1r6c",
+        "rev": "896391ed257e6f3cd5bf7a2e802d2761c3be1ff5",
+        "sha256": "143ds2cdvxf1sj8g4aw6jaglg719sqb278j6kfclb7q0ykdhirr3",
         "type": "tarball",
-        "url": "https://github.com/target/lorri/archive/13354036ce2161d21da91e07337814e2a9fa734b.tar.gz",
+        "url": "https://github.com/target/lorri/archive/896391ed257e6f3cd5bf7a2e802d2761c3be1ff5.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
@@ -24,27 +24,27 @@
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nix-diff": {
-        "branch": "fix-build-and-upgrade-deps",
+        "branch": "master",
         "description": "Explain why two Nix derivations differ",
         "homepage": null,
-        "owner": "basvandijk",
+        "owner": "Gabriel439",
         "repo": "nix-diff",
-        "rev": "1e18c4ad2216d67b12c9755cae40c5f053acc05c",
-        "sha256": "119j3c75n1iyh2y0xpppcr0p26hizv8y7359w0nawync3y51i0x4",
+        "rev": "5223e276f8051a77c2d173ade526c24e6f17178d",
+        "sha256": "17vxfygsfzwyzq3s7zn7p7gpjcnqyxlw2k01f9zisihwih5zy527",
         "type": "tarball",
-        "url": "https://github.com/basvandijk/nix-diff/archive/1e18c4ad2216d67b12c9755cae40c5f053acc05c.tar.gz",
+        "url": "https://github.com/Gabriel439/nix-diff/archive/5223e276f8051a77c2d173ade526c24e6f17178d.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
-        "branch": "master",
+        "branch": "last-known-good",
         "description": "Nixpkgs/NixOS branches that track the Nixpkgs/NixOS channels",
         "homepage": null,
-        "owner": "NixOS",
+        "owner": "jwiegley",
         "repo": "nixpkgs",
-        "rev": "21dbe886703fa958307b3435ca43553884a86ca9",
-        "sha256": "11qbzrgiw6lhvgqgxkx7zd2w0dypwcwijjp5s6pxj52mzpnamn12",
+        "rev": "d1d9880cdbed832c1f0d31d9bb29eba9ac76205a",
+        "sha256": "1rk5mfabja0cl3w3jwdpc7k1qnvj4ss81vabsy9jdmpcjhclx4jp",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/21dbe886703fa958307b3435ca43553884a86ca9.tar.gz",
+        "url": "https://github.com/jwiegley/nixpkgs/archive/d1d9880cdbed832c1f0d31d9bb29eba9ac76205a.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
