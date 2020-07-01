@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "target",
         "repo": "lorri",
-        "rev": "896391ed257e6f3cd5bf7a2e802d2761c3be1ff5",
-        "sha256": "143ds2cdvxf1sj8g4aw6jaglg719sqb278j6kfclb7q0ykdhirr3",
+        "rev": "11693cfd38e7a8d1bf5c16c4e7f6c24c4f8b0479",
+        "sha256": "0i6zxsccb1ldc7qbwy9jpikcvd01bfj36y63by8js0927wqx2bpx",
         "type": "tarball",
-        "url": "https://github.com/target/lorri/archive/896391ed257e6f3cd5bf7a2e802d2761c3be1ff5.tar.gz",
+        "url": "https://github.com/target/lorri/archive/11693cfd38e7a8d1bf5c16c4e7f6c24c4f8b0479.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
@@ -23,28 +23,28 @@
         "url": "https://github.com/nmattia/niv/archive/c8f74f44b5f5df2c8f20a1834460d012e74d78f9.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "nix-diff": {
-        "branch": "master",
-        "description": "Explain why two Nix derivations differ",
-        "homepage": null,
-        "owner": "Gabriel439",
-        "repo": "nix-diff",
-        "rev": "5223e276f8051a77c2d173ade526c24e6f17178d",
-        "sha256": "17vxfygsfzwyzq3s7zn7p7gpjcnqyxlw2k01f9zisihwih5zy527",
-        "type": "tarball",
-        "url": "https://github.com/Gabriel439/nix-diff/archive/5223e276f8051a77c2d173ade526c24e6f17178d.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "nixpkgs": {
         "branch": "last-known-good",
         "description": "Nixpkgs/NixOS branches that track the Nixpkgs/NixOS channels",
         "homepage": null,
         "owner": "jwiegley",
         "repo": "nixpkgs",
-        "rev": "d1d9880cdbed832c1f0d31d9bb29eba9ac76205a",
-        "sha256": "1rk5mfabja0cl3w3jwdpc7k1qnvj4ss81vabsy9jdmpcjhclx4jp",
+        "rev": "a32ffffb5176f05472aeb9f449f754e1690b0351",
+        "sha256": "01lgxpjnyyma47mn3agnmp70y54v2zgq7bc3ycd7il6vjwphmhd1",
         "type": "tarball",
-        "url": "https://github.com/jwiegley/nixpkgs/archive/d1d9880cdbed832c1f0d31d9bb29eba9ac76205a.tar.gz",
+        "url": "https://github.com/jwiegley/nixpkgs/archive/a32ffffb5176f05472aeb9f449f754e1690b0351.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "vulnix": {
+        "branch": "master",
+        "description": "Vulnerability (CVE) scanner for Nix/NixOS.",
+        "homepage": "",
+        "owner": "flyingcircusio",
+        "repo": "vulnix",
+        "rev": "6b0e38ae86d9b2eeea9b1d4e3fd191078a2dfdcf",
+        "sha256": "14rbk8pf5p3nxkm78nmy77m4va9dik2phz3a2am2awqmmm2arqw7",
+        "type": "tarball",
+        "url": "https://github.com/flyingcircusio/vulnix/archive/6b0e38ae86d9b2eeea9b1d4e3fd191078a2dfdcf.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }

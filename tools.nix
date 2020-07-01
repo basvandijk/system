@@ -37,12 +37,6 @@ in {
       tt-mode
     ]);
 
-  # Remove once https://github.com/Gabriel439/nix-diff/pull/26 is merged and available in nixpkgs.
-  nix-diff = pkgs.haskell.lib.overrideCabal pkgs.nix-diff (_: {
-    src = sources.nix-diff;
-    broken = false;
-  });
-
   inherit (pkgs)
     coreutils
     git
@@ -61,8 +55,10 @@ in {
     direnv
     graphviz
     cabal2nix
-    vulnix
+    nix-diff
     ;
+
+  vulnix = pkgs.vulnix.overrideAttrs (_oldAttrs: { src = sources.vulnix; });
 
   inherit (pkgs.haskellPackages) ghc;
 
