@@ -44,6 +44,7 @@ in {
     direnv
     graphviz
     cabal2nix
+    cabal-install
     nix-diff
     ;
 
