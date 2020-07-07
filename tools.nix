@@ -1,16 +1,5 @@
 let
-  pkgs = import sources.nixpkgs {
-    config = {
-      allowUnfree = true;
-    };
-  };
-
-  sources = import sourcesnix { sourcesFile = ./nix/sources.json; inherit pkgs; };
-
-  sourcesnix = builtins.fetchurl {
-    url = https://raw.githubusercontent.com/nmattia/niv/506b896788d9705899592a303de95d8819504c55/nix/sources.nix;
-    sha256 = "007bgq4zy1mjnnkbmaaxvvn4kgpla9wkm0d3lfrz3y1pa3wp9ha1";
-  };
+  pkgs = import ./nix;
 in {
   emacs = (pkgs.emacsPackagesNgGen pkgs.emacs).emacsWithPackages (epkgs:
     with epkgs.melpaPackages; [
@@ -58,13 +47,13 @@ in {
     nix-diff
     ;
 
-  vulnix = pkgs.vulnix.overrideAttrs (_oldAttrs: { src = sources.vulnix; });
+  vulnix = pkgs.vulnix.overrideAttrs (_oldAttrs: { src = pkgs.sources.vulnix; });
 
   inherit (pkgs.haskellPackages) ghc;
 
   inherit (pkgs.gitAndTools) git-crypt;
 
-  inherit (import sources.niv { inherit pkgs; }) niv;
+  inherit (import pkgs.sources.niv { inherit pkgs; }) niv;
 
-  lorri = import sources.lorri { inherit pkgs; };
+  lorri = import pkgs.sources.lorri { inherit pkgs; };
 }
