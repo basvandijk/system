@@ -46,6 +46,7 @@ in {
     cabal2nix
     cabal-install
     nix-diff
+    colordiff
     ;
 
   splot = pkgs.haskell.lib.justStaticExecutables
