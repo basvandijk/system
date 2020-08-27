@@ -49,10 +49,7 @@ in {
     colordiff
     ;
 
-  splot = pkgs.haskell.lib.justStaticExecutables
-    (pkgs.haskell.lib.unmarkBroken (
-      (pkgs.haskell.lib.overrideSrc
-        pkgs.haskellPackages.splot { src = pkgs.sources.splot; })));
+  splot = pkgs.haskell.lib.justStaticExecutables pkgs.haskellPackages.splot;
 
   vulnix = pkgs.vulnix.overrideAttrs (_oldAttrs: { src = pkgs.sources.vulnix; });
 
