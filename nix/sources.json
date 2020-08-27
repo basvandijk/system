@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "target",
         "repo": "lorri",
-        "rev": "11693cfd38e7a8d1bf5c16c4e7f6c24c4f8b0479",
-        "sha256": "0i6zxsccb1ldc7qbwy9jpikcvd01bfj36y63by8js0927wqx2bpx",
+        "rev": "0b3d330e423cb376a3b7c2256165bca1cdf0f9f1",
+        "sha256": "0wgynzrxjkqc6fj3gqwanlxx059z7373yai9ai62b6wd1sb65hpi",
         "type": "tarball",
-        "url": "https://github.com/target/lorri/archive/11693cfd38e7a8d1bf5c16c4e7f6c24c4f8b0479.tar.gz",
+        "url": "https://github.com/target/lorri/archive/0b3d330e423cb376a3b7c2256165bca1cdf0f9f1.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
@@ -17,10 +17,10 @@
         "homepage": "https://github.com/nmattia/niv",
         "owner": "nmattia",
         "repo": "niv",
-        "rev": "c8f74f44b5f5df2c8f20a1834460d012e74d78f9",
-        "sha256": "0zmhxgl37f1p2aiqjmiccflpgga6phj6vmqs3jd33z0frj6hsy5c",
+        "rev": "89ae775e9dfc2571f912156dd2f8627e14d4d507",
+        "sha256": "0ssw6byyn79fpyzswi28s5b85x66xh4xsfhmcfl5mkdxxpmyy0ns",
         "type": "tarball",
-        "url": "https://github.com/nmattia/niv/archive/c8f74f44b5f5df2c8f20a1834460d012e74d78f9.tar.gz",
+        "url": "https://github.com/nmattia/niv/archive/89ae775e9dfc2571f912156dd2f8627e14d4d507.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
@@ -29,10 +29,10 @@
         "homepage": null,
         "owner": "jwiegley",
         "repo": "nixpkgs",
-        "rev": "a32ffffb5176f05472aeb9f449f754e1690b0351",
-        "sha256": "01lgxpjnyyma47mn3agnmp70y54v2zgq7bc3ycd7il6vjwphmhd1",
+        "rev": "cb0a96eac0d628e10116737a686e77c410e3c939",
+        "sha256": "0dy27kvzy2lm38n0wv6h0nydh1y44jgsid0fa560hfawwn92vc4j",
         "type": "tarball",
-        "url": "https://github.com/jwiegley/nixpkgs/archive/a32ffffb5176f05472aeb9f449f754e1690b0351.tar.gz",
+        "url": "https://github.com/jwiegley/nixpkgs/archive/cb0a96eac0d628e10116737a686e77c410e3c939.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "splot": {
@@ -53,10 +53,10 @@
         "homepage": "",
         "owner": "flyingcircusio",
         "repo": "vulnix",
-        "rev": "6b0e38ae86d9b2eeea9b1d4e3fd191078a2dfdcf",
-        "sha256": "14rbk8pf5p3nxkm78nmy77m4va9dik2phz3a2am2awqmmm2arqw7",
+        "rev": "0953651d171bda0a515041c67f949dfcb3d4b39c",
+        "sha256": "0h9nkl5zv5q89ks398q3flk7gx4z3rc45zpq0q2xw390vzf75076",
         "type": "tarball",
-        "url": "https://github.com/flyingcircusio/vulnix/archive/6b0e38ae86d9b2eeea9b1d4e3fd191078a2dfdcf.tar.gz",
+        "url": "https://github.com/flyingcircusio/vulnix/archive/0953651d171bda0a515041c67f949dfcb3d4b39c.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
