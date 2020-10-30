@@ -24,6 +24,7 @@ in {
       use-package
       rg
       tt-mode
+      elixir-mode
     ]);
 
   inherit (pkgs)
@@ -59,5 +60,5 @@ in {
 
   inherit (import pkgs.sources.niv { inherit pkgs; }) niv;
 
-  lorri = import pkgs.sources.lorri { inherit pkgs; };
+  #lorri = import pkgs.sources.lorri { inherit pkgs; };
 }
