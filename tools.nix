@@ -1,7 +1,7 @@
 let
   pkgs = import ./nix;
 in {
-  emacs = (pkgs.emacsPackagesNgGen pkgs.emacs).emacsWithPackages (epkgs:
+  emacs = (pkgs.emacsPackagesFor pkgs.emacs).emacsWithPackages (epkgs:
     with epkgs.melpaPackages; [
       magit
       forge
