@@ -46,7 +46,6 @@ in {
     tree
     gnupg
     openssl
-    ormolu
     plantuml
     # jre
     ripgrep
@@ -58,13 +57,15 @@ in {
     colordiff
     ;
 
+  ormolu = pkgs.haskell.lib.justStaticExecutables pkgs.haskell.packages.ghc923.ormolu_0_5_0_0;
+
   nix-diff = pkgs.haskell.lib.doJailbreak pkgs.nix-diff;
 
   #splot = pkgs.haskell.lib.justStaticExecutables pkgs.haskellPackages.splot;
 
   #vulnix = pkgs.vulnix.overrideAttrs (_oldAttrs: { src = pkgs.sources.vulnix; });
 
-  inherit (pkgs.haskellPackages) ghc;
+  inherit (pkgs.haskell.packages.ghc923) ghc;
 
   #inherit (pkgs.gitAndTools) git-crypt;
 
