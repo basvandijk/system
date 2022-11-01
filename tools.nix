@@ -1,8 +1,11 @@
 let
   pkgs = import ./nix;
+
+  haskellPackages = pkgs.haskell.packages.ghc92;
 in {
   emacs = (pkgs.emacsPackagesFor pkgs.emacs).emacsWithPackages (epkgs:
     with epkgs.melpaPackages; [
+      bazel
       magit
       forge
       flycheck
@@ -57,7 +60,7 @@ in {
     colordiff
     ;
 
-  ormolu = pkgs.haskell.lib.justStaticExecutables pkgs.haskell.packages.ghc923.ormolu_0_5_0_0;
+  ormolu = pkgs.haskell.lib.justStaticExecutables haskellPackages.ormolu_0_5_0_1;
 
   nix-diff = pkgs.haskell.lib.doJailbreak pkgs.nix-diff;
 
@@ -65,7 +68,7 @@ in {
 
   #vulnix = pkgs.vulnix.overrideAttrs (_oldAttrs: { src = pkgs.sources.vulnix; });
 
-  inherit (pkgs.haskell.packages.ghc923) ghc;
+  inherit (haskellPackages) ghc;
 
   #inherit (pkgs.gitAndTools) git-crypt;
 
