@@ -58,6 +58,8 @@ in {
     cabal2nix
     cabal-install
     colordiff
+    yq
+    krew
     ;
 
   ormolu = pkgs.haskell.lib.justStaticExecutables haskellPackages.ormolu_0_5_0_1;
