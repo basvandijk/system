@@ -68,6 +68,8 @@ in {
     # hledger-interest
     ;
 
+  hledger-flow = pkgs.haskell.lib.justStaticExecutables haskellPackages.hledger-flow;
+
   ormolu = pkgs.haskell.lib.justStaticExecutables haskellPackages.ormolu_0_5_0_1;
 
   nix-diff = pkgs.haskell.lib.doJailbreak pkgs.nix-diff;
