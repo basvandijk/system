@@ -64,8 +64,8 @@ in {
     hledger
     hledger-ui
     hledger-web
-    hledger-iadd
-    hledger-interest
+    # hledger-iadd
+    # hledger-interest
     ;
 
   ormolu = pkgs.haskell.lib.justStaticExecutables haskellPackages.ormolu_0_5_0_1;
