@@ -29,10 +29,10 @@
         "homepage": null,
         "owner": "jwiegley",
         "repo": "nixpkgs",
-        "rev": "787c45c1d8243c1c24ef8a074bb7c0b4a947efbd",
-        "sha256": "1al9ilhwmiaqdzkrmz60ziyp80kflr6by6dj7lzfh4mrksf6896c",
+        "rev": "2087a154328f812118a66ea8c1355be87983e3ca",
+        "sha256": "0vazdm5j4f2r0ny47ii6lkxfxq3nin4jsbpv3nlsrbjajb8lrns7",
         "type": "tarball",
-        "url": "https://github.com/jwiegley/nixpkgs/archive/787c45c1d8243c1c24ef8a074bb7c0b4a947efbd.tar.gz",
+        "url": "https://github.com/jwiegley/nixpkgs/archive/2087a154328f812118a66ea8c1355be87983e3ca.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vulnix": {

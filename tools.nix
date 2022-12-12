@@ -35,6 +35,7 @@ in {
       tt-mode
       elixir-mode
       yasnippet
+      hledger-mode
     ]);
 
   inherit (pkgs)
@@ -60,6 +61,11 @@ in {
     colordiff
     yq
     krew
+    hledger
+    hledger-ui
+    hledger-web
+    hledger-iadd
+    hledger-interest
     ;
 
   ormolu = pkgs.haskell.lib.justStaticExecutables haskellPackages.ormolu_0_5_0_1;
