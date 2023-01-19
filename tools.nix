@@ -55,20 +55,14 @@ in {
     ripgrep
     jq
     direnv
+    nix-direnv
     graphviz
     cabal2nix
     cabal-install
     colordiff
     yq
     krew
-    hledger
-    hledger-ui
-    hledger-web
-    # hledger-iadd
-    # hledger-interest
     ;
-
-  hledger-flow = pkgs.haskell.lib.justStaticExecutables haskellPackages.hledger-flow;
 
   ormolu = pkgs.haskell.lib.justStaticExecutables haskellPackages.ormolu_0_5_0_1;
 
