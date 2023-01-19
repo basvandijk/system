@@ -62,6 +62,7 @@ in {
     colordiff
     yq
     krew
+    bazelisk
     ;
 
   ormolu = pkgs.haskell.lib.justStaticExecutables haskellPackages.ormolu_0_5_0_1;
