@@ -42,11 +42,12 @@ in {
     coreutils
     git
     git-filter-repo
+    gh
     #git-lfs
     htop
     zsh
     oh-my-zsh
-    powerline-fonts # Make sure to run ~/Library/Fonts/update.sh
+    # powerline-fonts # Make sure to run ~/Library/Fonts/update.sh
     tree
     gnupg
     openssl
@@ -63,9 +64,9 @@ in {
     yq
     krew
     bazelisk
+    ormolu
+    tldr
     ;
-
-  ormolu = pkgs.haskell.lib.justStaticExecutables haskellPackages.ormolu_0_5_0_1;
 
   nix-diff = pkgs.haskell.lib.doJailbreak pkgs.nix-diff;
 
